@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client'
 //import {HooksApp} from "./HooksApp.jsx";
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css'
+//import {SimpleForm} from "./02-useEffect/SimpleForm";
+//import {FormWithCustomHook} from "./02-useEffect/FormWithCustomHook";
+import {MultipleCustomHooks} from "./03-examples/MultipleCustomHooks.jsx";
 //import {CounterApp} from "./01-useState/CounterApp.jsx";
-import {CounterWithCustomHook} from "./01-useState/CounterWithCustomHook";
+//import {CounterWithCustomHook} from "./01-useState/CounterWithCustomHook";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CounterWithCustomHook/>
+    <MultipleCustomHooks />
   </React.StrictMode>,
 )
